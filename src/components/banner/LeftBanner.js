@@ -26,9 +26,8 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I use animation as a third dimension by which to simplify experiences
-          and kuiding thro each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
+        As a Software Engineering student proficient in Java and Python, I specialize in captivating web designs. My
+        passion lies in front-end development, particularly with React and Bootstrap. And I also Interests in Machine learning and AI.
         </p>
       </div>
      {/* Media */}
