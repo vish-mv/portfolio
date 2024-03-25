@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import {logo} from "../../assets/index"
 import { navLinksdata } from '../../constants';
 
@@ -45,9 +45,7 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                As a Software Engineering student proficient in Java and Python, I specialize in captivating web designs. My passion lies in front-end development, particularly with React and Bootstrap. And I also Interests in Machine learning and AI.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -79,7 +77,7 @@ const Navbar = () => {
                     <FaFacebookF />
                   </span>
                   <span className="bannerIcon">
-                    <FaTwitter />
+                    <FaGithub />
                   </span>
                   <span className="bannerIcon">
                     <FaLinkedinIn />

@@ -16,42 +16,32 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
-        <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+      <ProjectsCard
+          title="HearLink"
+          des=" HearLink redefines video communication with real-time sign language translation and speech recognition.
+          Our platform fosters inclusivity, enabling seamless conversations for all. Experience the future of digital
+          interaction – where everyone's voice is heard
+          "
           src={projectOne}
         />
         <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="Nilawala Leo Web Project"
+          des=" I led front-end design and development for Nilwala Leo Club's official site, creating an engaging, userfriendly experience to amplify their online presence"
           src={projectTwo}
         />
+        
         <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="Crop Doc (Ongoing)"
+          des="CropDoc is a cutting-edge paddy management system for farmers, offering tools for disease detection, fertilizer optimization, and harvest management. With a user-friendly mobile app and web platform, CropDoc provides personalized recommendations, real-time monitoring, and marketplace integration to enhance agricultural operations and boost crop yield and profitability."
           src={projectThree}
         />
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="SYNOTEC 24"
+          des="
+          Synotec 24 is a dynamic event encompassing ideathons, quizthons, and more, at a zonal level."
           src={projectThree}
         />
-        <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
-        />
-        <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
-        />
+      
       </div>
     </section>
   );
